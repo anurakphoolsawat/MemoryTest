@@ -5,16 +5,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class A3Activity extends Activity {
+public class A10Activity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_a3);
+		setContentView(R.layout.activity_a10);
 	}
 	
 	public void next(View view) {
-		Intent intent = new Intent(getApplicationContext(), A4Activity.class);
+		Intent intent = new Intent(getApplicationContext(), A11Activity.class);
 		startActivity(intent);
 //		finish();
 	}
