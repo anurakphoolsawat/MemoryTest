@@ -16,7 +16,7 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="@null"
         android:scaleType="fitXY"
-        android:src="@drawable/p1" />
+        android:src="@drawable/d1" />
 
     <Button
         android:id="@+id/button1"
@@ -27,5 +27,16 @@
         android:layout_marginBottom="10dp"
         android:onClick="next"
         android:text="@string/ok" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="18dp"
+        android:textSize="30sp"
+        android:text="Page1" />
 
 </RelativeLayout>
