@@ -24,6 +24,18 @@
         </activity>
         <activity android:name=".A2Activity" />
         <activity android:name=".A3Activity" />
+        <activity android:name=".A4Activity" />
+        <activity android:name=".A5Activity" />
+        <activity android:name=".A6Activity" />
+        <activity android:name=".A7Activity" />
+        <activity android:name=".A8Activity" />
+        <activity android:name=".A9Activity" />
+        <activity android:name=".A10Activity" />
+        <activity android:name=".A11Activity" />
+        <activity android:name=".A12Activity" />
+        <activity android:name=".A13Activity" />
+        <activity android:name=".A14Activity" />
+        <activity android:name=".A15Activity" />
     </application>
 
 </manifest>
