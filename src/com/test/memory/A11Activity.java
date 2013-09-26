@@ -16,6 +16,6 @@ public class A11Activity extends Activity {
 	public void next(View view) {
 		Intent intent = new Intent(getApplicationContext(), A12Activity.class);
 		startActivity(intent);
-//		finish();
+		finish();
 	}
 }
