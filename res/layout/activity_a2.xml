@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:contentDescription="@null"
-        android:src="@drawable/p2" />
+        android:src="@drawable/d2" />
 
     <Button
         android:id="@+id/button1"
