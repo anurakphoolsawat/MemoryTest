@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">609214625762071</string>
+    <string name="acra_toast_text">Ooooops! I crashed, but a report has been sent to my developers to help fix the issue!</string>
+    <string name="empty"></string>
+    
+    <string name="sample_name">Name</string>
+    <string name="sample_last_msg">Naruto sent a sticker.</string>
+    <string name="sample_system_message">Naruto join group.</string>
+    <string name="sample_timestamp">15:10</string>
+    <string name="sample_date_separator">--- Jan, 10 ---</string>
+    <string name="sample_new_msg_count">20</string>
+    <string name="sample_app_version">1.0.1</string>
+    <string name="sample_shop_set_name">Avatar Set - Sample</string>
+    <string name="sample_shop_set_style">Style - Sample</string>
+    <string name="sample_shop_set_creator">Palomar Systems</string>
+    <string name="sample_description">Description</string>
+    <string name="sample_shop_price">0.99 $</string>
+    <string name="sample_download_mb_progress">2MB /</string>
+    <string name="sample_download_mb_total">22.1MB</string>
+    <string name="sample_download_percent">0%</string>
+    
+    <string name="n">N</string>
+    
+    <string name="settings_button_developer">Developer options</string>
+    <string name="dev_option_server_url">Server</string>
+    <string name="dev_option_enable_websocket">Enable WebSocket</string>
+    <string name="dev_option_websocket_status">Connection stauts</string>
+    <string name="dev_option_copy_database">Copy database</string>
+    <string name="dev_option_delete_bitmap_cache">Delete bitmap</string>
+    <string name="dev_option_delete_components">Delete avatar components</string>
+    <string name="dev_option_delete_emoticons">Delete emoticons</string>
+    <string name="dev_option_delete_contacts">Delete contacts</string>
+    <string name="dev_option_delete_messages">Delete messages</string>
+    <string name="pref_summary_unknown">Unknown</string>
+    <string name="pref_summary_copy_database">Create a copy of database in SD card</string>
+    <string name="pref_summary_delete_bitmap_cache">Delete all caching bitmap</string>
+    <string name="pref_summary_delete_components">Delete all avatar components records</string>
+    <string name="pref_summary_delete_emoticons">Delete all emoticon bitmaps</string>
+    <string name="pref_summary_delete_contacts">Delete all contacts</string>
+    <string name="pref_summary_delete_messages">Delete all chat messages</string>
+    <string name="pref_summary_websocket_is_enabled">WebSocket is enabled</string>
+    <string name="pref_summary_websocket_is_disabled">WebSocket is disabled</string>
+    <string name="pref_summary_websocket_is_connected">WebSocket is connected</string>
+    <string name="pref_summary_websocket_is_disconnected">WebSocket is disconnected</string>
+    
+
+</resources>

@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutDateTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:focusableInTouchMode="false" >
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.5dp"
+        android:layout_centerInParent="true"
+        android:background="@color/app_blue_trans"
+        android:gravity="center"
+        android:text="@string/sample_date_separator"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadingEdge="none"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical" >
+
+<!--     <include
+        android:id="@+id/layout_date_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_date_seperator" /> -->
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_date_title"
+        android:baselineAligned="false"
+        android:gravity="left" >
+
+        <RelativeLayout
+            android:id="@+id/layout_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" >
+
+            <ImageView
+                android:id="@+id/image_avatar"
+                android:layout_width="@dimen/chat_avatar_size"
+                android:layout_height="@dimen/chat_avatar_size"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/empty" />
+
+            <ImageView
+                android:id="@+id/image_avatar_animation"
+                android:layout_width="@dimen/chat_avatar_size"
+                android:layout_height="@dimen/chat_avatar_size"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/empty" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_chat_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@id/layout_avatar"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_display_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight=".1"
+                android:text="@string/sample_name"
+                android:textColor="@color/chat_displayname"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_bubble"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:autoLink="all"
+                android:background="@drawable/bubble_blue01"
+                android:paddingRight="15dp"
+                 android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/text_time"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight=".1"
+                android:gravity="left|bottom"
+                android:text="@string/sample_timestamp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/message_time_font_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_main"
+        android:layout_marginTop="-3dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/empty"
+        android:scaleType="fitXY"
+        android:src="@drawable/main_line" />
+
+</RelativeLayout>

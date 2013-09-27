@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_green">#96c463</color>
+    <color name="app_blue">#23bdef</color>
+    <color name="app_title">#2d9dcf</color>
+    <color name="app_blue_trans">#5000aee9</color>
+    <color name="tabStart">#005b80</color>
+    <color name="tabCenter">#00466e</color>
+    <color name="tabEnd">#012d4d</color>
+    <color name="tabTransparent">#10ffffff</color>
+    <color name="bg_glay_01">#F0F0F0</color>
+    <color name="bg_glay_02">#D7D7D7</color>
+    <color name="transparent05">#50000000</color>
+    <color name="Transparent01">#00000000</color>
+    <color name="Transparent_white">#90FFFFFF</color>
+    <color name="brown">#9f6f3e</color>
+    <color name="chat_displayname">#808185</color>
+    <color name="red1">#ff0000</color>
+    <color name="glay_01">#888888</color>
+    <color name="glay_02">#555555</color>
+    <color name="green_01">#48fd00</color>
+    <color name="blue_transparent">#AF3983B5</color>
+    <color name="male_color">#1F9DEB</color>
+    <color name="female_color">#7FB926</color>
+    <color name="bg_avatar">#80cfff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="bg_setting">#fff7eb</color>
+    <color name="red">#FF2200</color>
+    <color name="blue_01">#00adee</color>
+    <color name="blue_02">#FF0390BE</color>
+    <color name="blue_03">#007bbe</color>
+    <color name="red_01">#FFF06522</color>
+    <color name="blue01_trans">#cc4488cc</color>
+    <color name="pink">#ed3ca5</color>
+    <color name="blue_04">#61c6ee</color>
+    <color name="emo_blue">#00aeec</color>
+    <color name="emo_green">#80bd26</color>
+    <color name="bg_app">#FAFAFA</color>
+    <color name="button_text">#ff0592bf</color>
+    <color name="button_downloadding">#fff36523</color>
+    <color name="button_purchased">#ff0591bf</color>
+    <color name="shop_free">#fff36523</color>
+    <color name="shop_purches">#ff0592bf</color>
+    <color name="shop_downloaded">#ffCCCCCC</color>
+    <color name="button_text_sign_in">#FFFFFF</color>
+    <color name="text_hint">#838283</color>
+
+</resources>
