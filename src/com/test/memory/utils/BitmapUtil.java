@@ -126,8 +126,8 @@ public class BitmapUtil {
 	public static Bitmap getBitmap() {
 		Bitmap bitmap = null;
 		String filePath = "/mnt/sdcard/d1.jpg";
-//		bitmap = getBitmap(filePath, 704, 974);
-		bitmap =  BitmapFactory.decodeFile(filePath);
+		bitmap = getBitmap(filePath, 704, 974);
+//		bitmap =  BitmapFactory.decodeFile(filePath);
 		return bitmap;
 	}
 	
